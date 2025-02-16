@@ -1,0 +1,40 @@
+name: analysis_lcp
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - pycytominer
+  - joblib
+  - sqlalchemy
+  - ipykernel
+  - jupyterlab
+  - notebook
+  - pip
+  - pip:
+      - adjusttext
+      - bioinfokit
+      - cloudpickle
+      - easygui
+      - lightgbm
+      - matplotlib-venn
+      - numba
+      - openpyxl
+      - patsy
+      - plotly
+      - pyarrow
+      - pycombat
+      - scikit-posthocs
+      - shap
+      - statannotations
+      - tabulate
+      - tqdm
+      - umap-learn
+      - xgboost
